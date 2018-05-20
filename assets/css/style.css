@@ -1,0 +1,112 @@
+
+/*
+ *
+ * CSS
+ *
+ */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/*
+ *
+ * General Rules
+ *
+ */
+ body {
+ 	background-color: #0057b8;
+ }
+ section {
+ 	min-height: 100vh;
+ }
+ section h2 {
+ 	font-family: 'Montserrat', sans-serif;
+ 	letter-spacing: 5px;
+ 	text-transform: uppercase;
+ 	padding: 15px;
+ 	text-align: center;
+ }
+ /*
+ *
+ * Sections
+ *
+ */
+ section#bio {
+ 	background-image: url(../img/bg.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ section#bio > div {
+ 	background-color: rgba(11, 7, 241, 0.6);
+ 	min-height: 100vh;
+ }
+ section#bio > div > header > p {
+ 	padding-top: 15px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	line-height: 1.5;
+ }
+ section#bio > div > header > p:last-child {
+ 	position: absolute;
+ 	right: 0;
+ 	top: 0;
+ }
+ section#bio > div > header > p > a {
+ 	color: black;
+ 	text-decoration: none;
+ 	letter-spacing: 3px;
+ }
+ section#bio > div > header > p > a:hover {
+ 	color: #e5eaef;
+ }
+ section#bio > div > div#details {
+ 	text-align: center;
+ }
+ section#bio > div > div#details > img {
+ 	width: 200px;
+ 	height: 200px;
+ 	border-style: double;
+ 	border-radius: 50%;
+ 	padding: 2px;
+ }
+ section#bio > div > div#details > h1 {
+ 	letter-spacing: 5px;
+ 	line-height: 3;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+ section#bio > div > div#details > ul {
+ 	letter-spacing: 2px;
+ 	padding: 15px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+ section#bio > div > div#details > p {
+ 	text-indent: initial;
+ 	padding-left: 15%;
+ 	padding-right: 15%;
+ 	font-family: 'Kavivanar', cursive;
+ 	color: white;
+ }
+
+ section#project {
+ 	background-color: #36c7ff;
+ }
+
+  section#skillset {
+ 	background-color: #db8f00;
+ }
+
+  section#contact {
+ 	background-color: #ffdb00;
+ 	position: relative;
+ }
+
+ footer {
+ 	background-color: black;
+ 	color: #ffdb00;
+ 	line-height: 3;
+ 	position: absolute;
+ 	text-align: center;
+ 	width: 100%;
+ 	bottom: 0;
+ }
